@@ -1,1 +1,30 @@
 /* write your override styles here */
+#wall .tag-1 {
+  display: none;
+}
+div#wall #tag-3 {
+  display: block;
+}
+#wall #tag-4 {
+  border-bottom: 1px solid #ccc;
+}
+div#wall {
+  z-index: 5;
+  border-radius: 15px;
+}
+#tag-2 {
+  border-bottom: 1px solid #ccc;
+}
+.tag-1,
+#tag-2,
+#tag-3,
+#tag-4,
+#tag-5,
+#tag-6,
+#tag-7 {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 1000px;
+  height: 800px;
+}
